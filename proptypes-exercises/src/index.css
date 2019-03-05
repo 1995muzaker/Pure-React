@@ -15,8 +15,22 @@ code {
 
 .my-address{
   background: #f3f3f3;
-  padding: 10px;
-  margin: 50px;
+  padding: 10px 30px;
+  margin: 50px auto;
   font-family: monospace;
   font-size: 20px;
+  width: 50%;
+  position: relative;
+}
+
+.from-person{
+  text-align: right;
+}
+
+.stamp{
+  position: absolute;
+    top: 15px;
+    right: 20px;
+    border: 1px solid;
+    padding: 50px 20px;
 }
