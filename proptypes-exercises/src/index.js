@@ -47,5 +47,4 @@ const Stamp = () => (
    <div className="stamp">stamp</div>
 );
 
-
 ReactDOM.render(<Envelop myAddress={person} />, document.querySelector("#root"));
