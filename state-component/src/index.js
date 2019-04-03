@@ -22,10 +22,11 @@ class CountingParent extends React.Component {
       actionCount:this.state.actionCount + 1,
     });
   }
+
   reset = () => {
-      this.setState({ 
-          actionCount:this.state.actionCount = 0 
-        })
+    this.setState({ 
+      actionCount:this.setState.actionCount = 0 
+    })
   }
 
   render() {
